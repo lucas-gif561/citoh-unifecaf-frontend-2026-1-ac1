@@ -1,17 +1,20 @@
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { ProductCard } from "./ProductCard";
 
 export function ProductList({ products }) {
     return (
-        <section className="product-list">
-            {/*
-                Crie um mapa de proucts onde cada produto será 
-                carregado em um componente ProductCard.
-                Por estar dentro de um map, é necessário
-                adicionar o atributo key para que o React
-                consiga distinguir cada elemento customizado
-
-                <ProductCard key={product.id} {...product} />
-            */}
-        </section>
+        <Row xs={1} sm={2} md={3} lg={4} className="g-4 product-list">
+            {products.map(product => (
+                <Col key={product.id}>
+                    <ProductCard {...product} />
+                </Col>
+            ))}
+            {products.length === 0 && (
+                <Col xs={12}>
+                    <p className="text-center text-white mt-4 fs-5">Nenhum equipamento encontrado.</p>
+                </Col>
+            )}
+        </Row>
     );
 }

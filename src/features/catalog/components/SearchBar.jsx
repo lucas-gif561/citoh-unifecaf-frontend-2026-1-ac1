@@ -1,12 +1,15 @@
+import Form from 'react-bootstrap/Form';
+
 export function SearchBar({ search, setSearch }) {
     return (
-        <form>
-            <input
+        <Form className="mb-4">
+            <Form.Control
                 type="text"
-                placeholder="Buscar produto..."
+                placeholder="Buscar equipamento..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
+                size="lg"
             />
-        </form>
+        </Form>
     );
 }

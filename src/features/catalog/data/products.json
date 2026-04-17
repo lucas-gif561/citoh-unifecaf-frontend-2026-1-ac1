@@ -1,30 +1,1766 @@
 [
   {
     "id": 1,
-    "name": "Produto Exemplo",
-    "price": 90.89,
-    "category": "Categoria",
-    "image": "/src/assets/images/product.jpg"
+    "name": "Machado de Bandido",
+    "price": 2725,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bandit_Axe.png/86px-Bandit_Axe.png"
   },
   {
     "id": 2,
-    "name": "Produto Exemplo",
-    "price": 90.89,
-    "category": "Categoria1",
-    "image": "/src/assets/images/product.jpg"
+    "name": "Machado de Batalha",
+    "price": 2669,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Battle_Axe.png/86px-Battle_Axe.png"
   },
   {
     "id": 3,
-    "name": "Produto Exemplo3",
-    "price": 90.89,
-    "category": "Categoria2",
-    "image": "/src/assets/images/product.jpg"
+    "name": "Machado de Mão Amarrado",
+    "price": 2690,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bound_Hand_Axe.png/76px-Bound_Hand_Axe.png"
   },
   {
     "id": 4,
-    "name": "Produto Exemplo4",
-    "price": 90.89,
-    "category": "Categoria2",
-    "image": "/src/assets/images/product.jpg"
+    "name": "Faca de Açougueiro",
+    "price": 4798,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Butcher%27s_Knife.png/81px-Butcher%27s_Knife.png"
+  },
+  {
+    "id": 5,
+    "name": "Machado Crescente do Matador de Dragões",
+    "price": 1722,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonslayer%27s_Crescent_Axe.png/99px-Dragonslayer%27s_Crescent_Axe.png"
+  },
+  {
+    "id": 6,
+    "name": "Machado de Gyrm",
+    "price": 1656,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Gyrm_Axe.png/91px-Gyrm_Axe.png"
+  },
+  {
+    "id": 7,
+    "name": "Machado de Mão",
+    "price": 5481,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Hand_Axe.png/62px-Hand_Axe.png"
+  },
+  {
+    "id": 8,
+    "name": "Machado de Infantaria",
+    "price": 3798,
+    "category": "Machados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Infantry_Axe.png/101px-Infantry_Axe.png"
+  },
+  {
+    "id": 9,
+    "name": "Arco do Protetor do Sino",
+    "price": 5480,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bell_Keeper_Bow.png/79px-Bell_Keeper_Bow.png"
+  },
+  {
+    "id": 10,
+    "name": "Arco do Desejo",
+    "price": 3421,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bow_of_Want.png/91px-Bow_of_Want.png"
+  },
+  {
+    "id": 11,
+    "name": "Arco Composto",
+    "price": 2433,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Composite_Bow.png/81px-Composite_Bow.png"
+  },
+  {
+    "id": 12,
+    "name": "Arco do Cavaleiro de Dragão",
+    "price": 2793,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonrider_Bow.png/91px-Dragonrider_Bow.png"
+  },
+  {
+    "id": 13,
+    "name": "Arco Negro de Caçador",
+    "price": 5435,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Hunter%27s_Blackbow.png/76px-Hunter%27s_Blackbow.png"
+  },
+  {
+    "id": 14,
+    "name": "Arco Longo",
+    "price": 4496,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Long_Bow.png/62px-Long_Bow.png"
+  },
+  {
+    "id": 15,
+    "name": "Arco do Mar",
+    "price": 1860,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sea_Bow.png/95px-Sea_Bow.png"
+  },
+  {
+    "id": 16,
+    "name": "Arco Curto",
+    "price": 3946,
+    "category": "Arcos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Short_Bow.png/74px-Short_Bow.png"
+  },
+  {
+    "id": 17,
+    "name": "Garras",
+    "price": 5624,
+    "category": "Garras",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Claws(weapon).png/120px-Claws(weapon).png"
+  },
+  {
+    "id": 18,
+    "name": "Garras Deformadas",
+    "price": 3931,
+    "category": "Garras",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Malformed_Claws.png/120px-Malformed_Claws.png"
+  },
+  {
+    "id": 19,
+    "name": "Garras de Manequim",
+    "price": 4419,
+    "category": "Garras",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Manikin_Claws.png/113px-Manikin_Claws.png"
+  },
+  {
+    "id": 20,
+    "name": "Gancho de Trabalho",
+    "price": 2124,
+    "category": "Garras",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Work_Hook.png/101px-Work_Hook.png"
+  },
+  {
+    "id": 21,
+    "name": "Avelyn",
+    "price": 4224,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Avelyn.png/120px-Avelyn.png"
+  },
+  {
+    "id": 22,
+    "name": "Besta Pesada",
+    "price": 3177,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Heavy_Crossbow.png/109px-Heavy_Crossbow.png"
+  },
+  {
+    "id": 23,
+    "name": "Besta Leve",
+    "price": 5372,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Light_Crossbow.png/98px-Light_Crossbow.png"
+  },
+  {
+    "id": 24,
+    "name": "Besta do Santuário",
+    "price": 5741,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sanctum_Crossbow.png/120px-Sanctum_Crossbow.png"
+  },
+  {
+    "id": 25,
+    "name": "Besta de Repetição do Santuário",
+    "price": 3616,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sanctum_Repeating_Crossbow.png/120px-Sanctum_Repeating_Crossbow.png"
+  },
+  {
+    "id": 26,
+    "name": "Besta Escudo",
+    "price": 5895,
+    "category": "Bestas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Shield_Crossbow.png/120px-Shield_Crossbow.png"
+  },
+  {
+    "id": 27,
+    "name": "Espada em Arco",
+    "price": 5349,
+    "category": "Espadas Grandes Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Arced_Sword.png/62px-Arced_Sword.png"
+  },
+  {
+    "id": 28,
+    "name": "Espada Grande do Dragão Curvo",
+    "price": 3995,
+    "category": "Espadas Grandes Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Curved_Dragon_Greatsword.png/97px-Curved_Dragon_Greatsword.png"
+  },
+  {
+    "id": 29,
+    "name": "Espada Grande Curva do Nada",
+    "price": 4751,
+    "category": "Espadas Grandes Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Curved_Nil_Greatsword.png/79px-Curved_Nil_Greatsword.png"
+  },
+  {
+    "id": 30,
+    "name": "Murakumo",
+    "price": 4954,
+    "category": "Espadas Grandes Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Murakumo.png/66px-Murakumo.png"
+  },
+  {
+    "id": 31,
+    "name": "Eleum Loyce",
+    "price": 2307,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Eleum_Loyce.png/76px-Eleum_Loyce.png"
+  },
+  {
+    "id": 32,
+    "name": "Alfange",
+    "price": 2010,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Falchion.png/66px-Falchion.png"
+  },
+  {
+    "id": 33,
+    "name": "Sabre de Manequim",
+    "price": 3215,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Manikin_Sabre.png/63px-Manikin_Sabre.png"
+  },
+  {
+    "id": 34,
+    "name": "Cimitarra de Melu",
+    "price": 2741,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Melu_Scimitar.png/60px-Melu_Scimitar.png"
+  },
+  {
+    "id": 35,
+    "name": "Cimitarra do Monastério",
+    "price": 4266,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Monastery_Scimitar.png/70px-Monastery_Scimitar.png"
+  },
+  {
+    "id": 36,
+    "name": "Cimitarra da Ferrugem Vermelha",
+    "price": 2641,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Red_Rust_Scimitar.png/60px-Red_Rust_Scimitar.png"
+  },
+  {
+    "id": 37,
+    "name": "Cimitarra",
+    "price": 2878,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Scimitar.png/57px-Scimitar.png"
+  },
+  {
+    "id": 38,
+    "name": "Shotel",
+    "price": 2446,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Shotel.png/41px-Shotel.png"
+  },
+  {
+    "id": 39,
+    "name": "Presa de Aranha",
+    "price": 2800,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Spider_Fang.png/60px-Spider_Fang.png"
+  },
+  {
+    "id": 40,
+    "name": "Espada Distorcida",
+    "price": 3496,
+    "category": "Espadas Curvas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Warped_Sword.png/48px-Warped_Sword.png"
+  },
+  {
+    "id": 41,
+    "name": "Faca de Bandido",
+    "price": 5041,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bandit%27s_Knife.png/64px-Bandit%27s_Knife.png"
+  },
+  {
+    "id": 42,
+    "name": "Adaga de Pedra de Fogo Negra",
+    "price": 1133,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Flamestone_Dagger.png/70px-Black_Flamestone_Dagger.png"
+  },
+  {
+    "id": 43,
+    "name": "Adaga Azul",
+    "price": 3438,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Blue_Dagger.png/59px-Blue_Dagger.png"
+  },
+  {
+    "id": 44,
+    "name": "Espada de Ladrão Quebrada",
+    "price": 2836,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Broken_Thief_Sword.png/57px-Broken_Thief_Sword.png"
+  },
+  {
+    "id": 45,
+    "name": "Adaga",
+    "price": 3683,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dagger.png/60px-Dagger.png"
+  },
+  {
+    "id": 46,
+    "name": "Faca de Manequim",
+    "price": 5707,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Manikin_Knife.png/67px-Manikin_Knife.png"
+  },
+  {
+    "id": 47,
+    "name": "Lâmina Torta da Mytha",
+    "price": 5150,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mytha%27s_Bent_Blade.png/49px-Mytha%27s_Bent_Blade.png"
+  },
+  {
+    "id": 48,
+    "name": "Adaga de Aparar",
+    "price": 2713,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Parrying_Dagger.png/63px-Parrying_Dagger.png"
+  },
+  {
+    "id": 49,
+    "name": "Espada Curta do Retentor",
+    "price": 1432,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Retainer%27s_Short_Sword.png/61px-Retainer%27s_Short_Sword.png"
+  },
+  {
+    "id": 50,
+    "name": "Punhal Real",
+    "price": 3051,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Royal_Dirk.png/70px-Royal_Dirk.png"
+  },
+  {
+    "id": 51,
+    "name": "Adaga das Sombras",
+    "price": 4971,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Shadow_Dagger.png/60px-Shadow_Dagger.png"
+  },
+  {
+    "id": 52,
+    "name": "Adaga de Ladrão",
+    "price": 4571,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Thief_Dagger.png/69px-Thief_Dagger.png"
+  },
+  {
+    "id": 53,
+    "name": "Adaga Umbral",
+    "price": 1637,
+    "category": "Adagas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Umbral_Dagger.png/54px-Umbral_Dagger.png"
+  },
+  {
+    "id": 54,
+    "name": "Punho de Osso",
+    "price": 1050,
+    "category": "Punhos",
+    "image": "https://darksouls2.wiki.gg/images/Bone_Fist.png"
+  },
+  {
+    "id": 55,
+    "name": "Caestus",
+    "price": 3954,
+    "category": "Punhos",
+    "image": "https://darksouls2.wiki.gg/images/Caestus.png"
+  },
+  {
+    "id": 56,
+    "name": "Selo do Vencedor",
+    "price": 3790,
+    "category": "Punhos",
+    "image": "https://darksouls2.wiki.gg/images/Vanquisher%27s_Seal.png"
+  },
+  {
+    "id": 57,
+    "name": "Machado Grande de Bandido",
+    "price": 1476,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bandit_Greataxe.png/98px-Bandit_Greataxe.png"
+  },
+  {
+    "id": 58,
+    "name": "Machado Grande do Dragão Negro",
+    "price": 3680,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Dragon_Greataxe.png/97px-Black_Dragon_Greataxe.png"
+  },
+  {
+    "id": 59,
+    "name": "Machado Grande do Cavaleiro Negro",
+    "price": 1682,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Knight_Greataxe.png/96px-Black_Knight_Greataxe.png"
+  },
+  {
+    "id": 60,
+    "name": "Machado Crescente",
+    "price": 3061,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Crescent_Axe.png/90px-Crescent_Axe.png"
+  },
+  {
+    "id": 61,
+    "name": "Machado Grande do Guardião de Draco",
+    "price": 5019,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakekeeper%27s_Greataxe.png/85px-Drakekeeper%27s_Greataxe.png"
+  },
+  {
+    "id": 62,
+    "name": "Machado Grande",
+    "price": 2855,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Greataxe.png/89px-Greataxe.png"
+  },
+  {
+    "id": 63,
+    "name": "Machado de Pedra Gigante",
+    "price": 2338,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Giant_Stone_Axe.png/86px-Giant_Stone_Axe.png"
+  },
+  {
+    "id": 64,
+    "name": "Machado Grande de Gyrm",
+    "price": 4626,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Gyrm_Greataxe.png/101px-Gyrm_Greataxe.png"
+  },
+  {
+    "id": 65,
+    "name": "Machado Grande de Leão",
+    "price": 5477,
+    "category": "Machados Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Lion_Greataxe.png/95px-Lion_Greataxe.png"
+  },
+  {
+    "id": 66,
+    "name": "Arco Grande de Alonne",
+    "price": 1026,
+    "category": "Arcos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Alonne_Greatbow.png/65px-Alonne_Greatbow.png"
+  },
+  {
+    "id": 67,
+    "name": "Arco Grande do Matador de Dragões",
+    "price": 5072,
+    "category": "Arcos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonslayer_Greatbow.png/87px-Dragonslayer_Greatbow.png"
+  },
+  {
+    "id": 68,
+    "name": "Arco Grande da Armadura Possuída",
+    "price": 5791,
+    "category": "Arcos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Possessed_Armor_Greatbow.png/87px-Possessed_Armor_Greatbow.png"
+  },
+  {
+    "id": 69,
+    "name": "Arco Grande de Duas Cabeças",
+    "price": 4986,
+    "category": "Arcos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Twin-headed_Greatbow.png/82px-Twin-headed_Greatbow.png"
+  },
+  {
+    "id": 70,
+    "name": "Maça do Arquidragão",
+    "price": 2937,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Archdrake_Mace.png/80px-Archdrake_Mace.png"
+  },
+  {
+    "id": 71,
+    "name": "Martelo Grande do Demônio",
+    "price": 1647,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Demon%27s_Great_Hammer.png/67px-Demon%27s_Great_Hammer.png"
+  },
+  {
+    "id": 72,
+    "name": "Dente de Dragão",
+    "price": 5597,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragon_Tooth.png/62px-Dragon_Tooth.png"
+  },
+  {
+    "id": 73,
+    "name": "Martelo Grande do Guardião de Draco",
+    "price": 1528,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakekeeper%27s_Great_Hammer.png/74px-Drakekeeper%27s_Great_Hammer.png"
+  },
+  {
+    "id": 74,
+    "name": "Picareta de Guerra do Guardião de Draco",
+    "price": 5106,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakekeeper%27s_Warpick.png/104px-Drakekeeper%27s_Warpick.png"
+  },
+  {
+    "id": 75,
+    "name": "Clava Gigante do Guerreiro",
+    "price": 1920,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Giant_Warrior_Club.png/70px-Giant_Warrior_Club.png"
+  },
+  {
+    "id": 76,
+    "name": "Clava Grande",
+    "price": 4552,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Great_Club.png/64px-Great_Club.png"
+  },
+  {
+    "id": 77,
+    "name": "Martelo Grande de Gyrm",
+    "price": 1776,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Gyrm_Great_Hammer.png/73px-Gyrm_Great_Hammer.png"
+  },
+  {
+    "id": 78,
+    "name": "Martelo do Rei de Ferro",
+    "price": 1577,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Iron_King_Hammer.png/65px-Iron_King_Hammer.png"
+  },
+  {
+    "id": 79,
+    "name": "Clava Larga",
+    "price": 5503,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Large_Club.png/69px-Large_Club.png"
+  },
+  {
+    "id": 80,
+    "name": "Concha Deformada",
+    "price": 2869,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Malformed_Shell.png/67px-Malformed_Shell.png"
+  },
+  {
+    "id": 81,
+    "name": "Crânio Deformado",
+    "price": 5204,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Malformed_Skull.png/68px-Malformed_Skull.png"
+  },
+  {
+    "id": 82,
+    "name": "Martelo do Cavaleiro Antigo",
+    "price": 5592,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Knight_Hammer.png/67px-Old_Knight_Hammer.png"
+  },
+  {
+    "id": 83,
+    "name": "Picareta",
+    "price": 1454,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pickaxe.png/113px-Pickaxe.png"
+  },
+  {
+    "id": 84,
+    "name": "Martelo do Sino Sagrado",
+    "price": 5326,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sacred_Chime_Hammer.png/68px-Sacred_Chime_Hammer.png"
+  },
+  {
+    "id": 85,
+    "name": "Maça do Santuário",
+    "price": 3368,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sanctum_Mace.png/70px-Sanctum_Mace.png"
+  },
+  {
+    "id": 86,
+    "name": "Martelo da Fornalha",
+    "price": 4875,
+    "category": "Martelos Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Smelter_Hammer.png/72px-Smelter_Hammer.png"
+  },
+  {
+    "id": 87,
+    "name": "Espada Bastarda",
+    "price": 2723,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bastard_Sword.png/79px-Bastard_Sword.png"
+  },
+  {
+    "id": 88,
+    "name": "Espada Grande do Dragão Negro",
+    "price": 3473,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Dragon_Greatsword.png/65px-Black_Dragon_Greatsword.png"
+  },
+  {
+    "id": 89,
+    "name": "Espada Grande do Cavaleiro Negro",
+    "price": 2660,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Knight_Greatsword.png/69px-Black_Knight_Greatsword.png"
+  },
+  {
+    "id": 90,
+    "name": "Espada Grande da Lua Azul",
+    "price": 5889,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bluemoon_Greatsword.png/81px-Bluemoon_Greatsword.png"
+  },
+  {
+    "id": 91,
+    "name": "Espada Grande Carbonizada de Loyce",
+    "price": 1999,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Charred_Loyce_Greatsword.png/61px-Charred_Loyce_Greatsword.png"
+  },
+  {
+    "id": 92,
+    "name": "Claymore",
+    "price": 4391,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Claymore.png/65px-Claymore.png"
+  },
+  {
+    "id": 93,
+    "name": "Espada Grande do Defensor",
+    "price": 4227,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Defender_Greatsword.png/65px-Defender_Greatsword.png"
+  },
+  {
+    "id": 94,
+    "name": "Espada Grande de Sangue de Draco",
+    "price": 5080,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakeblood_Greatsword.png/63px-Drakeblood_Greatsword.png"
+  },
+  {
+    "id": 95,
+    "name": "Espada de Drangleic",
+    "price": 3358,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drangleic_Sword.png/68px-Drangleic_Sword.png"
+  },
+  {
+    "id": 96,
+    "name": "Flamberge",
+    "price": 4309,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Flamberge.png/58px-Flamberge.png"
+  },
+  {
+    "id": 97,
+    "name": "Espada Grande do Esquecido",
+    "price": 2599,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Greatsword_of_the_Forlorn.png/74px-Greatsword_of_the_Forlorn.png"
+  },
+  {
+    "id": 98,
+    "name": "Chave dos Aprisionados",
+    "price": 4914,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Key_to_the_Embedded.png/64px-Key_to_the_Embedded.png"
+  },
+  {
+    "id": 99,
+    "name": "Espada Grande de Loyce",
+    "price": 1705,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Loyce_Greatsword.png/61px-Loyce_Greatsword.png"
+  },
+  {
+    "id": 100,
+    "name": "Espada Grande Majestosa",
+    "price": 2915,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Majestic_Greatsword.png/62px-Majestic_Greatsword.png"
+  },
+  {
+    "id": 101,
+    "name": "Espada Grande de Mastodonte",
+    "price": 3833,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mastodon_Greatsword.png/71px-Mastodon_Greatsword.png"
+  },
+  {
+    "id": 102,
+    "name": "Espada Grande de Mirrah",
+    "price": 1708,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mirrah_Greatsword.png/68px-Mirrah_Greatsword.png"
+  },
+  {
+    "id": 103,
+    "name": "Espada Grande do Luar",
+    "price": 4316,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Moonlight_Greatsword.png/68px-Moonlight_Greatsword.png"
+  },
+  {
+    "id": 104,
+    "name": "Espada Grande do Cavaleiro Antigo",
+    "price": 3856,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Knight_Greatsword.png/66px-Old_Knight_Greatsword.png"
+  },
+  {
+    "id": 105,
+    "name": "Espada Grande Antiga de Mirrah",
+    "price": 1289,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Mirrah_Greatsword.png/69px-Old_Mirrah_Greatsword.png"
+  },
+  {
+    "id": 106,
+    "name": "Espada Grande Real",
+    "price": 2288,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Royal_Greatsword.png/64px-Royal_Greatsword.png"
+  },
+  {
+    "id": 107,
+    "name": "Espada do Governante",
+    "price": 2670,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ruler%27s_Sword.png/63px-Ruler%27s_Sword.png"
+  },
+  {
+    "id": 108,
+    "name": "Espada Grande Farpada",
+    "price": 2984,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Thorned_Greatsword.png/63px-Thorned_Greatsword.png"
+  },
+  {
+    "id": 109,
+    "name": "Espada Grande do Vigilante",
+    "price": 4362,
+    "category": "Espadas Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Watcher_Greatsword.png/67px-Watcher_Greatsword.png"
+  },
+  {
+    "id": 110,
+    "name": "Alabarda do Cavaleiro Negro",
+    "price": 3991,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Knight_Halberd.png/72px-Black_Knight_Halberd.png"
+  },
+  {
+    "id": 111,
+    "name": "Alabarda do Cavaleiro Azul",
+    "price": 2015,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Blue_Knight%27s_Halberd.png/72px-Blue_Knight%27s_Halberd.png"
+  },
+  {
+    "id": 112,
+    "name": "Alabarda do Cavaleiro de Dragão",
+    "price": 4551,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonrider%27s_Halberd.png/91px-Dragonrider%27s_Halberd.png"
+  },
+  {
+    "id": 113,
+    "name": "Alabarda",
+    "price": 5526,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Halberd.png/67px-Halberd.png"
+  },
+  {
+    "id": 114,
+    "name": "Alabarda Espiral",
+    "price": 3778,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Helix_Halberd.png/72px-Helix_Halberd.png"
+  },
+  {
+    "id": 115,
+    "name": "Lucerne",
+    "price": 5376,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Lucerne.png/85px-Lucerne.png"
+  },
+  {
+    "id": 116,
+    "name": "Alabarda de Mastodonte",
+    "price": 5039,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mastodon_Halberd.png/63px-Mastodon_Halberd.png"
+  },
+  {
+    "id": 117,
+    "name": "Alabarda do Cavaleiro Antigo",
+    "price": 2322,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Knight_Halberd.png/103px-Old_Knight_Halberd.png"
+  },
+  {
+    "id": 118,
+    "name": "Pique do Cavaleiro Antigo",
+    "price": 3637,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Knight_Pike.png/74px-Old_Knight_Pike.png"
+  },
+  {
+    "id": 119,
+    "name": "Alabarda Estrondosa",
+    "price": 1917,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Roaring_Halberd.png/66px-Roaring_Halberd.png"
+  },
+  {
+    "id": 120,
+    "name": "Lança de Santier",
+    "price": 2241,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Santier%27s_Spear.png/60px-Santier%27s_Spear.png"
+  },
+  {
+    "id": 121,
+    "name": "Foice",
+    "price": 1608,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Scythe.png/57px-Scythe.png"
+  },
+  {
+    "id": 122,
+    "name": "Alabarda de Syan",
+    "price": 3856,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Syan%27s_Halberd.png/68px-Syan%27s_Halberd.png"
+  },
+  {
+    "id": 123,
+    "name": "Machado Colérico",
+    "price": 4191,
+    "category": "Alabardas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Wrathful_Axe.png/76px-Wrathful_Axe.png"
+  },
+  {
+    "id": 124,
+    "name": "Martelo de Aldia",
+    "price": 3800,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Aldia_Hammer.png/97px-Aldia_Hammer.png"
+  },
+  {
+    "id": 125,
+    "name": "Clava Farpada",
+    "price": 5596,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Barbed_Club.png/57px-Barbed_Club.png"
+  },
+  {
+    "id": 126,
+    "name": "Picareta de Guerra do Dragão Negro",
+    "price": 5261,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Dragon_Warpick.png/98px-Black_Dragon_Warpick.png"
+  },
+  {
+    "id": 127,
+    "name": "Martelo de Ferreiro",
+    "price": 4053,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Blacksmith%27s_Hammer.png/72px-Blacksmith%27s_Hammer.png"
+  },
+  {
+    "id": 128,
+    "name": "Clava",
+    "price": 3143,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Club.png/63px-Club.png"
+  },
+  {
+    "id": 129,
+    "name": "Martelo do Artesão",
+    "price": 5681,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Craftsman%27s_Hammer.png/76px-Craftsman%27s_Hammer.png"
+  },
+  {
+    "id": 130,
+    "name": "Concha de Criada",
+    "price": 3850,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Handmaid%27s_Ladle.png/83px-Handmaid%27s_Ladle.png"
+  },
+  {
+    "id": 131,
+    "name": "Maça de Homunculus",
+    "price": 3730,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Homunculus_Mace.png/74px-Homunculus_Mace.png"
+  },
+  {
+    "id": 132,
+    "name": "Maça",
+    "price": 5123,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mace.png/67px-Mace.png"
+  },
+  {
+    "id": 133,
+    "name": "Maça do Insolente",
+    "price": 2054,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mace_of_the_Insolent.png/64px-Mace_of_the_Insolent.png"
+  },
+  {
+    "id": 134,
+    "name": "Estrela da Manhã",
+    "price": 4007,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Morning_Star.png/71px-Morning_Star.png"
+  },
+  {
+    "id": 135,
+    "name": "Clava Reforçada",
+    "price": 3442,
+    "category": "Martelos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Reinforced_Club.png/77px-Reinforced_Club.png"
+  },
+  {
+    "id": 136,
+    "name": "Lâmina do Berserker",
+    "price": 4074,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Berserker_Blade.png/72px-Berserker_Blade.png"
+  },
+  {
+    "id": 137,
+    "name": "Espada Enfeitiçada de Alonne",
+    "price": 2393,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bewitched_Alonne_Sword.png/70px-Bewitched_Alonne_Sword.png"
+  },
+  {
+    "id": 138,
+    "name": "Katana de Aço Negro",
+    "price": 4436,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Blacksteel_Katana.png/67px-Blacksteel_Katana.png"
+  },
+  {
+    "id": 139,
+    "name": "Lâmina do Caos",
+    "price": 1844,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Chaos_Blade.png/66px-Chaos_Blade.png"
+  },
+  {
+    "id": 140,
+    "name": "Deriva Negra",
+    "price": 2308,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Darkdrift.png/82px-Darkdrift.png"
+  },
+  {
+    "id": 141,
+    "name": "Matadora de Homens",
+    "price": 4001,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Manslayer.png/69px-Manslayer.png"
+  },
+  {
+    "id": 142,
+    "name": "Uchigatana",
+    "price": 5723,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Uchigatana.png/63px-Uchigatana.png"
+  },
+  {
+    "id": 143,
+    "name": "Vara de Secar",
+    "price": 5461,
+    "category": "Katanas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Washing_Pole.png/66px-Washing_Pole.png"
+  },
+  {
+    "id": 144,
+    "name": "Lança da Carruagem",
+    "price": 3170,
+    "category": "Lanças",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Chariot_Lance.png/59px-Chariot_Lance.png"
+  },
+  {
+    "id": 145,
+    "name": "Lança Grande",
+    "price": 3838,
+    "category": "Lanças",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Grand_Lance.png/64px-Grand_Lance.png"
+  },
+  {
+    "id": 146,
+    "name": "Lança Grande de Heide",
+    "price": 3554,
+    "category": "Lanças",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Heide_Greatlance.png/62px-Heide_Greatlance.png"
+  },
+  {
+    "id": 147,
+    "name": "Lança de Heide",
+    "price": 2029,
+    "category": "Lanças",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Heide_Lance.png/59px-Heide_Lance.png"
+  },
+  {
+    "id": 148,
+    "name": "Lança de Golem do Parapeito",
+    "price": 3258,
+    "category": "Lanças",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Rampart_Golem_Lance.png/62px-Rampart_Golem_Lance.png"
+  },
+  {
+    "id": 149,
+    "name": "Foice de Osso",
+    "price": 2702,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bone_Scythe.png/98px-Bone_Scythe.png"
+  },
+  {
+    "id": 150,
+    "name": "Foice Crescente",
+    "price": 3794,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Crescent_Sickle.png/76px-Crescent_Sickle.png"
+  },
+  {
+    "id": 151,
+    "name": "Foice da Lua Cheia",
+    "price": 4733,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Full_Moon_Sickle.png/90px-Full_Moon_Sickle.png"
+  },
+  {
+    "id": 152,
+    "name": "Machete Grande",
+    "price": 4746,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Great_Machete.png/80px-Great_Machete.png"
+  },
+  {
+    "id": 153,
+    "name": "Foice Grande",
+    "price": 5512,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Great_Scythe.png/98px-Great_Scythe.png"
+  },
+  {
+    "id": 154,
+    "name": "Foice de Nahr Alma",
+    "price": 2987,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Scythe_of_Nahr_Alma.png/100px-Scythe_of_Nahr_Alma.png"
+  },
+  {
+    "id": 155,
+    "name": "Foice do Esquecido",
+    "price": 1636,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Scythe_of_the_Forlorn.png/101px-Scythe_of_the_Forlorn.png"
+  },
+  {
+    "id": 156,
+    "name": "Foice do Desejo",
+    "price": 4172,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Scythe_of_Want.png/96px-Scythe_of_Want.png"
+  },
+  {
+    "id": 157,
+    "name": "Foice Prateada e Negra",
+    "price": 1998,
+    "category": "Foices",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Silverblack_Sickle.png/84px-Silverblack_Sickle.png"
+  },
+  {
+    "id": 158,
+    "name": "Tridente dos Canalizadores",
+    "price": 2826,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Channeler%27s_Trident.png/72px-Channeler%27s_Trident.png"
+  },
+  {
+    "id": 159,
+    "name": "Lança do Matador de Dragões",
+    "price": 2388,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonslayer_Spear.png/67px-Dragonslayer_Spear.png"
+  },
+  {
+    "id": 160,
+    "name": "Bidente de Gárgula",
+    "price": 2102,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Gargoyle_Bident.png/65px-Gargoyle_Bident.png"
+  },
+  {
+    "id": 161,
+    "name": "Lança de Heide",
+    "price": 3716,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Heide_Spear.png/56px-Heide_Spear.png"
+  },
+  {
+    "id": 162,
+    "name": "Partizan",
+    "price": 1551,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Partizan.png/57px-Partizan.png"
+  },
+  {
+    "id": 163,
+    "name": "Lança do Pate",
+    "price": 1742,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pate%27s_Spear.png/61px-Pate%27s_Spear.png"
+  },
+  {
+    "id": 164,
+    "name": "Pique",
+    "price": 4247,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pike.png/55px-Pike.png"
+  },
+  {
+    "id": 165,
+    "name": "Espontão do Peregrino",
+    "price": 2237,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pilgrim%27s_Spontoon.png/60px-Pilgrim%27s_Spontoon.png"
+  },
+  {
+    "id": 166,
+    "name": "Lança Prateada e Negra",
+    "price": 2921,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Silverblack_Spear.png/57px-Silverblack_Spear.png"
+  },
+  {
+    "id": 167,
+    "name": "Lança",
+    "price": 3100,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Spear.png/58px-Spear.png"
+  },
+  {
+    "id": 168,
+    "name": "Lança Cuspideira",
+    "price": 3765,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Spitfire_Spear.png/58px-Spitfire_Spear.png"
+  },
+  {
+    "id": 169,
+    "name": "Lança de Soldado de Pedra",
+    "price": 4376,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Stone_Soldier_Spear.png/61px-Stone_Soldier_Spear.png"
+  },
+  {
+    "id": 170,
+    "name": "Lança Alada",
+    "price": 2074,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Winged_Spear.png/63px-Winged_Spear.png"
+  },
+  {
+    "id": 171,
+    "name": "Lança do Yorgh",
+    "price": 1745,
+    "category": "Lanças (Spears)",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Yorgh%27s_Spear.png/57px-Yorgh%27s_Spear.png"
+  },
+  {
+    "id": 172,
+    "name": "Espada de Guerreiro Cinzento",
+    "price": 2482,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ashen_Warrior_Sword.png/68px-Ashen_Warrior_Sword.png"
+  },
+  {
+    "id": 173,
+    "name": "Espada do Dragão Negro",
+    "price": 4091,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Dragon_Sword.png/66px-Black_Dragon_Sword.png"
+  },
+  {
+    "id": 174,
+    "name": "Chama Azul",
+    "price": 5099,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Blue_Flame.png/63px-Blue_Flame.png"
+  },
+  {
+    "id": 175,
+    "name": "Espada Larga",
+    "price": 4413,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Broadsword.png/65px-Broadsword.png"
+  },
+  {
+    "id": 176,
+    "name": "Espada Reta Quebrada",
+    "price": 1343,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Broken_Straight_Sword.png/68px-Broken_Straight_Sword.png"
+  },
+  {
+    "id": 177,
+    "name": "Espada do Guardião de Draco",
+    "price": 4979,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakekeeper%27s_Sword.png/80px-Drakekeeper%27s_Sword.png"
+  },
+  {
+    "id": 178,
+    "name": "Espada de Soldado de Infantaria",
+    "price": 3347,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Foot_Soldier_Sword.png/61px-Foot_Soldier_Sword.png"
+  },
+  {
+    "id": 179,
+    "name": "Espada de Fumaça",
+    "price": 2937,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Fume_Sword.png/61px-Fume_Sword.png"
+  },
+  {
+    "id": 180,
+    "name": "Espada de Cavaleiro de Heide",
+    "price": 3048,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Heide_Knight_Sword.png/65px-Heide_Knight_Sword.png"
+  },
+  {
+    "id": 181,
+    "name": "Espada Reta de Marfim",
+    "price": 1217,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ivory_Straight_Sword.png/44px-Ivory_Straight_Sword.png"
+  },
+  {
+    "id": 182,
+    "name": "Espada Longa",
+    "price": 1595,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Longsword.png/73px-Longsword.png"
+  },
+  {
+    "id": 183,
+    "name": "Espada da Armadura Possuída",
+    "price": 1596,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Possessed_Armor_Sword.png/67px-Possessed_Armor_Sword.png"
+  },
+  {
+    "id": 184,
+    "name": "Espada de Pedra Enigmática",
+    "price": 1535,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Puzzling_Stone_Sword.png/64px-Puzzling_Stone_Sword.png"
+  },
+  {
+    "id": 185,
+    "name": "Espada da Ferrugem Vermelha",
+    "price": 2129,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Red_Rust_Sword.png/61px-Red_Rust_Sword.png"
+  },
+  {
+    "id": 186,
+    "name": "Espada Curta",
+    "price": 3628,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Shortsword.png/65px-Shortsword.png"
+  },
+  {
+    "id": 187,
+    "name": "Espada do Sol",
+    "price": 3781,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sun_Sword.png/61px-Sun_Sword.png"
+  },
+  {
+    "id": 188,
+    "name": "Espada de Varangiano",
+    "price": 5644,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Varangian_Sword.png/63px-Varangian_Sword.png"
+  },
+  {
+    "id": 189,
+    "name": "Espada Longa de Quartzo Amarelo",
+    "price": 5029,
+    "category": "Espadas Retas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Yellow_Quartz_Longsword.png/82px-Yellow_Quartz_Longsword.png"
+  },
+  {
+    "id": 190,
+    "name": "Ferrão do Escorpião Negro",
+    "price": 1831,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Scorpion_Stinger.png/72px-Black_Scorpion_Stinger.png"
+  },
+  {
+    "id": 191,
+    "name": "Rapieira do Caos",
+    "price": 4803,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Chaos_Rapier.png/60px-Chaos_Rapier.png"
+  },
+  {
+    "id": 192,
+    "name": "Espada Ropera",
+    "price": 5390,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Espada_Ropera.png/59px-Espada_Ropera.png"
+  },
+  {
+    "id": 193,
+    "name": "Estoc",
+    "price": 4128,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Estoc.png/61px-Estoc.png"
+  },
+  {
+    "id": 194,
+    "name": "Rapieira de Gelo",
+    "price": 3045,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ice_Rapier.png/59px-Ice_Rapier.png"
+  },
+  {
+    "id": 195,
+    "name": "Quebra-Malhas",
+    "price": 1395,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Mail_Breaker.png/61px-Mail_Breaker.png"
+  },
+  {
+    "id": 196,
+    "name": "Rapieira",
+    "price": 4952,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Rapier.png/65px-Rapier.png"
+  },
+  {
+    "id": 197,
+    "name": "Rapieira de Ricard",
+    "price": 1696,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ricard%27s_Rapier.png/72px-Ricard%27s_Rapier.png"
+  },
+  {
+    "id": 198,
+    "name": "Seda de Aranha",
+    "price": 2407,
+    "category": "Espadas de Estocada",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Spider%27s_Silk.png/68px-Spider%27s_Silk.png"
+  },
+  {
+    "id": 199,
+    "name": "Lâmina Dupla Curva",
+    "price": 5133,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Curved_Twinblade.png/71px-Curved_Twinblade.png"
+  },
+  {
+    "id": 200,
+    "name": "Lâmina Dupla do Cavaleiro de Dragão",
+    "price": 2202,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragonrider_Twinblade.png/70px-Dragonrider_Twinblade.png"
+  },
+  {
+    "id": 201,
+    "name": "Lâmina Dupla de Ferro Vermelho",
+    "price": 3088,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Red_Iron_Twinblade.png/68px-Red_Iron_Twinblade.png"
+  },
+  {
+    "id": 202,
+    "name": "Lâmina Dupla de Feiticeiro",
+    "price": 4381,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sorcerer%27s_Twinblade.png/83px-Sorcerer%27s_Twinblade.png"
+  },
+  {
+    "id": 203,
+    "name": "Lâmina Dupla de Pedra",
+    "price": 1069,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Stone_Twinblade.png/61px-Stone_Twinblade.png"
+  },
+  {
+    "id": 204,
+    "name": "Lâmina Dupla",
+    "price": 2345,
+    "category": "Lâminas Duplas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Twinblade.png/61px-Twinblade.png"
+  },
+  {
+    "id": 205,
+    "name": "Espada da Fornalha Envelhecida",
+    "price": 1883,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Aged_Smelter_Sword.png/85px-Aged_Smelter_Sword.png"
+  },
+  {
+    "id": 206,
+    "name": "Espada Ultra Grande do Cavaleiro Negro",
+    "price": 1131,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Knight_Ultra_Greatsword.png/68px-Black_Knight_Ultra_Greatsword.png"
+  },
+  {
+    "id": 207,
+    "name": "Espada Negra da Cripta",
+    "price": 5044,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Crypt_Blacksword.png/78px-Crypt_Blacksword.png"
+  },
+  {
+    "id": 208,
+    "name": "Espada Ultra Grande do Guardião de Draco",
+    "price": 2790,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakekeeper%27s_Ultra_Greatsword.png/79px-Drakekeeper%27s_Ultra_Greatsword.png"
+  },
+  {
+    "id": 209,
+    "name": "Espada Ultra Grande da Asa de Draco",
+    "price": 3384,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Drakewing_Ultra_Greatsword.png/100px-Drakewing_Ultra_Greatsword.png"
+  },
+  {
+    "id": 210,
+    "name": "Espada Ultra Grande de Fumaça",
+    "price": 1863,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Fume_Ultra_Greatsword.png/78px-Fume_Ultra_Greatsword.png"
+  },
+  {
+    "id": 211,
+    "name": "Espada Grande",
+    "price": 5353,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Greatsword.png/71px-Greatsword.png"
+  },
+  {
+    "id": 212,
+    "name": "Espada Ultra Grande do Rei de Marfim",
+    "price": 1290,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Ivory_King_Ultra_Greatsword.png/61px-Ivory_King_Ultra_Greatsword.png"
+  },
+  {
+    "id": 213,
+    "name": "Espada Ultra Grande do Rei",
+    "price": 4057,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/King%27s_Ultra_Greatsword.png/82px-King%27s_Ultra_Greatsword.png"
+  },
+  {
+    "id": 214,
+    "name": "Espada da Pecadora Perdida",
+    "price": 2549,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Lost_Sinner%27s_Sword.png/62px-Lost_Sinner%27s_Sword.png"
+  },
+  {
+    "id": 215,
+    "name": "Espada Ultra Grande do Cavaleiro Antigo",
+    "price": 5699,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Knight_Ultra_Greatsword.png/72px-Old_Knight_Ultra_Greatsword.png"
+  },
+  {
+    "id": 216,
+    "name": "Espada Ultra Grande do Perseguidor",
+    "price": 4906,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pursuer%27s_Ultra_Greatsword.png/68px-Pursuer%27s_Ultra_Greatsword.png"
+  },
+  {
+    "id": 217,
+    "name": "Espada da Fornalha",
+    "price": 4137,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Smelter_Sword.png/77px-Smelter_Sword.png"
+  },
+  {
+    "id": 218,
+    "name": "Zweihander",
+    "price": 4977,
+    "category": "Espadas Ultra Grandes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Zweihander.png/67px-Zweihander.png"
+  },
+  {
+    "id": 219,
+    "name": "Chicote Ensanguentado",
+    "price": 1212,
+    "category": "Chicotes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bloodied_Whip.png/93px-Bloodied_Whip.png"
+  },
+  {
+    "id": 220,
+    "name": "Chicote Farpado",
+    "price": 1140,
+    "category": "Chicotes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Notched_Whip.png/89px-Notched_Whip.png"
+  },
+  {
+    "id": 221,
+    "name": "Chicote Antigo",
+    "price": 2937,
+    "category": "Chicotes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Old_Whip.png/85px-Old_Whip.png"
+  },
+  {
+    "id": 222,
+    "name": "Chicote Manchado",
+    "price": 2855,
+    "category": "Chicotes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Spotted_Whip.png/105px-Spotted_Whip.png"
+  },
+  {
+    "id": 223,
+    "name": "Chicote",
+    "price": 3726,
+    "category": "Chicotes",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Whip.png/81px-Whip.png"
+  },
+  {
+    "id": 224,
+    "name": "Cajado do Arquidragão",
+    "price": 2970,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Archdrake_Staff.png/68px-Archdrake_Staff.png"
+  },
+  {
+    "id": 225,
+    "name": "Cajado de Azal",
+    "price": 2852,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Azal%27s_Staff.png/58px-Azal%27s_Staff.png"
+  },
+  {
+    "id": 226,
+    "name": "Cajado de Morcego",
+    "price": 1306,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bat_Staff.png/73px-Bat_Staff.png"
+  },
+  {
+    "id": 227,
+    "name": "Cajado da Bruxa Negra",
+    "price": 2850,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Black_Witch%27s_Staff.png/60px-Black_Witch%27s_Staff.png"
+  },
+  {
+    "id": 228,
+    "name": "Cajado de Osso",
+    "price": 5402,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Bone_Staff.png/96px-Bone_Staff.png"
+  },
+  {
+    "id": 229,
+    "name": "Cajado de Lagarto",
+    "price": 5942,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Lizard_Staff.png/63px-Lizard_Staff.png"
+  },
+  {
+    "id": 230,
+    "name": "Cajado de Olenford",
+    "price": 2975,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Olenford%27s_Staff.png/55px-Olenford%27s_Staff.png"
+  },
+  {
+    "id": 231,
+    "name": "Cajado de Retentor",
+    "price": 1180,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Retainer_Staff.png/70px-Retainer_Staff.png"
+  },
+  {
+    "id": 232,
+    "name": "Cajado do Feiticeiro",
+    "price": 5386,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sorcerer%27s_Staff.png/59px-Sorcerer%27s_Staff.png"
+  },
+  {
+    "id": 233,
+    "name": "Cajado de Amana",
+    "price": 1139,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Staff_of_Amana.png/55px-Staff_of_Amana.png"
+  },
+  {
+    "id": 234,
+    "name": "Cajado da Sabedoria",
+    "price": 4216,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Staff_of_Wisdom.png/69px-Staff_of_Wisdom.png"
+  },
+  {
+    "id": 235,
+    "name": "Cajado do Ocaso",
+    "price": 4478,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Sunset_Staff.png/66px-Sunset_Staff.png"
+  },
+  {
+    "id": 236,
+    "name": "Cajado do Transgressor",
+    "price": 3117,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Transgressor%27s_Staff.png/59px-Transgressor%27s_Staff.png"
+  },
+  {
+    "id": 237,
+    "name": "Ramo de Árvore das Bruxas",
+    "price": 2064,
+    "category": "Cajados",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Witchtree_Branch.png/66px-Witchtree_Branch.png"
+  },
+  {
+    "id": 238,
+    "name": "Sino do Arquidragão",
+    "price": 2239,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Archdrake_Chime.png/55px-Archdrake_Chime.png"
+  },
+  {
+    "id": 239,
+    "name": "Sino da Caitha",
+    "price": 4188,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Caitha%27s_Chime.png/64px-Caitha%27s_Chime.png"
+  },
+  {
+    "id": 240,
+    "name": "Sino dos Gritos",
+    "price": 5789,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Chime_of_Screams.png/86px-Chime_of_Screams.png"
+  },
+  {
+    "id": 241,
+    "name": "Sino do Desejo",
+    "price": 2863,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Chime_of_Want.png/54px-Chime_of_Want.png"
+  },
+  {
+    "id": 242,
+    "name": "Sino Sagrado do Clérigo",
+    "price": 2140,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Cleric%27s_Sacred_Chime.png/79px-Cleric%27s_Sacred_Chime.png"
+  },
+  {
+    "id": 243,
+    "name": "Sino de Disco",
+    "price": 4478,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Disc_Chime.png/110px-Disc_Chime.png"
+  },
+  {
+    "id": 244,
+    "name": "Sino do Dragão",
+    "price": 4005,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dragon_Chime.png/72px-Dragon_Chime.png"
+  },
+  {
+    "id": 245,
+    "name": "Sino do Ídolo",
+    "price": 3397,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Idol%27s_Chime.png/74px-Idol%27s_Chime.png"
+  },
+  {
+    "id": 246,
+    "name": "Sino de Sacerdote",
+    "price": 3460,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Priest%27s_Chime.png/72px-Priest%27s_Chime.png"
+  },
+  {
+    "id": 247,
+    "name": "Sino Protetor",
+    "price": 1059,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Protective_Chime.png/120px-Protective_Chime.png"
+  },
+  {
+    "id": 248,
+    "name": "Sino de Árvore das Bruxas",
+    "price": 5806,
+    "category": "Sinos",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Witchtree_Bellvine.png/86px-Witchtree_Bellvine.png"
+  },
+  {
+    "id": 249,
+    "name": "Chama Piromântica",
+    "price": 1686,
+    "category": "Chamas Piromânticas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Pyromancy_Flame.png/95px-Pyromancy_Flame.png"
+  },
+  {
+    "id": 250,
+    "name": "Chama Piromântica Negra",
+    "price": 1171,
+    "category": "Chamas Piromânticas",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Dark_Pyromancy_Flame.png/95px-Dark_Pyromancy_Flame.png"
+  },
+  {
+    "id": 251,
+    "name": "Binóculos",
+    "price": 2740,
+    "category": "Outros",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Binoculars.png/120px-Binoculars.png"
+  },
+  {
+    "id": 252,
+    "name": "Tocha",
+    "price": 4587,
+    "category": "Outros",
+    "image": "https://darksouls2.wiki.gg/images/thumb/Torch.png/65px-Torch.png"
   }
 ]
